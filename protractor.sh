@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
-docker run -it --privileged --rm --net=host -v /dev/shm:/dev/shm -v $(pwd):/protractor webnicer/protractor-headless $@
+xvfb-run --server-args='-screen 0 1280x1024x24' protractor $@
