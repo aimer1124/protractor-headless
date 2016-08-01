@@ -1,4 +1,4 @@
-# protractor-headless
+# Protractor-headless
 
 ## Docker
 
