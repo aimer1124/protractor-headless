@@ -28,7 +28,7 @@ ENTRYPOINT ["/protractor.sh"]
 ```
 
 ### Docker Image
-- Pull docker image: `docker pull docker pull webnicer/protractor-headless`
+- Pull docker image: `docker pull webnicer/protractor-headless`
 - The docker image url [https://hub.docker.com/r/webnicer/protractor-headless/](https://hub.docker.com/r/webnicer/protractor-headless/)
 
 ## Usage
